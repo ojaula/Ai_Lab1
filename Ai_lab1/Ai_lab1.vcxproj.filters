@@ -18,10 +18,16 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="msg_dispatcher.cpp">
+    <ClCompile Include="gameEntity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="msg_participant.cpp">
+    <ClCompile Include="gameEntityManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msgDispatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msgParticipant.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,10 +35,16 @@
     <ClInclude Include="singleton.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="msg_dispatcher.h">
+    <ClInclude Include="gameEntity.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="msg_participant.h">
+    <ClInclude Include="msg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="msgParticipant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameEntityManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

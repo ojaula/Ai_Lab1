@@ -64,13 +64,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="gameEntity.cpp" />
+    <ClCompile Include="gameEntityManager.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="msg_dispatcher.cpp" />
-    <ClCompile Include="msg_participant.cpp" />
+    <ClCompile Include="msgDispatcher.cpp" />
+    <ClCompile Include="msgParticipant.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="msg_dispatcher.h" />
-    <ClInclude Include="msg_participant.h" />
+    <ClInclude Include="gameEntity.h" />
+    <ClInclude Include="gameEntityManager.h" />
+    <ClInclude Include="msg.h" />
+    <ClInclude Include="msgParticipant.h" />
     <ClInclude Include="singleton.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

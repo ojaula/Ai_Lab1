@@ -74,6 +74,7 @@
     <ClInclude Include="gameEntity.h" />
     <ClInclude Include="gameEntityManager.h" />
     <ClInclude Include="msg.h" />
+    <ClInclude Include="msgDispatcher.h" />
     <ClInclude Include="msgParticipant.h" />
     <ClInclude Include="singleton.h" />
   </ItemGroup>

@@ -38,13 +38,16 @@
     <ClInclude Include="gameEntity.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="msg.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="msgParticipant.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="gameEntityManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="msgDispatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="msg.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
